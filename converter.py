@@ -158,7 +158,7 @@ class DocumentConverter:
 
     def __init__(
         self,
-        engine: str = ENGINE_MARKITDOWN,
+        engine: str = ENGINE_DOCLING,
         enable_plugins: bool = True,
         openai_api_key: Optional[str] = None,
         openai_base_url: Optional[str] = None,

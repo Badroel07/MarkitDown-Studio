@@ -116,7 +116,7 @@ with st.sidebar:
     st.subheader("Mesin Konverter", anchor=False)
     engine_label = st.radio(
         "Pilih Mesin:",
-        options=["Microsoft MarkItDown", "IBM Docling"],
+        options=["IBM Docling", "Microsoft MarkItDown"],
         index=0,
         help="Pilih parser dokumen yang digunakan untuk mengekstrak teks ke Markdown.",
     )
